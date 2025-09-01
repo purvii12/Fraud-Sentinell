@@ -74,20 +74,27 @@ Our solution uses **Machine Learning & AI** to detect fraud more **accurately an
 ### 1️⃣ Clone Repository
 
 git clone https://github.com/<your-username>/fraud-detection-ai.git
+
 cd fraud-detection-ai
 
 2️⃣ Frontend Setup
 
 cd frontend
+
 npm install
+
 npm run dev
+
 App will run at: http://localhost:5173
 
 3️⃣ Backend Setup
 
 cd backend
+
 pip install -r requirements.txt
+
 python app.py
+
 Backend API will run at: http://localhost:5000
 
 📊 Features
