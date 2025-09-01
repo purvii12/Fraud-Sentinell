@@ -60,28 +60,22 @@ Our solution uses **Machine Learning & AI** to detect fraud more **accurately an
 │ └── demo_sample_dataset.csv # Sample transaction dataset
 └── README.md # Documentation
 
-yaml
-Copy code
+
 
 ---
 
 ## ⚡ Setup Instructions
 
 ### 1️⃣ Clone Repository
-```bash
 git clone https://github.com/<your-username>/fraud-detection-ai.git
 cd fraud-detection-ai
 2️⃣ Frontend Setup
-bash
-Copy code
 cd frontend
 npm install
 npm run dev
 App will run at: http://localhost:5173
 
 3️⃣ Backend Setup
-bash
-Copy code
 cd backend
 pip install -r requirements.txt
 python app.py
