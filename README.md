@@ -54,10 +54,15 @@ Our solution uses **Machine Learning & AI** to detect fraud more **accurately an
 
 ## 📂 Project Structure
 ├── frontend/ # React dashboard (UI)
+
 ├── backend/
+
 │ └── app.py # Python backend (API + model integration)
+
 ├── dataset/
+
 │ └── demo_sample_dataset.csv # Sample transaction dataset
+
 └── README.md # Documentation
 
 
@@ -67,15 +72,19 @@ Our solution uses **Machine Learning & AI** to detect fraud more **accurately an
 ## ⚡ Setup Instructions
 
 ### 1️⃣ Clone Repository
+
 git clone https://github.com/<your-username>/fraud-detection-ai.git
 cd fraud-detection-ai
+
 2️⃣ Frontend Setup
+
 cd frontend
 npm install
 npm run dev
 App will run at: http://localhost:5173
 
 3️⃣ Backend Setup
+
 cd backend
 pip install -r requirements.txt
 python app.py
@@ -93,11 +102,12 @@ Backend API will run at: http://localhost:5000
 🌍 Geographic & Merchant anomaly detection
 
 👨‍💻 Team Members
-Purvi Khandelwal
 
-Harshita Swarnkar
+1. Purvi Khandelwal
 
-Agam Katiyar
+2. Harshita Swarnkar
+
+3. Agam Katiyar
 
 🏆 Future Enhancements
 🔐 Role-based access for investigators and auditors.
